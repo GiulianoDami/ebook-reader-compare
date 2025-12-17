@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebook Reader Compare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ebook Reader Comparison Tool</h1>
+        <p>Compare top devices based on your needs</p>
+    </header>
+
+    <div class="filters">
+        <h2>Filter by Features</h2>
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="display" value="E Ink"> E Ink Display
+            </label>
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="display" value="LCD"> LCD Display
+            </label>
+        </div>
+        
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="size" value="Pocketable"> Pocketable (6-7 inches)
+            </label>
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="size" value="Large"> Large (8+ inches)
+            </label>
+        </div>
+        
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="waterproof" value="true"> Waterproof
+            </label>
+        </div>
+        
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="note-taking" value="true"> Note-Taking
+            </label>
+        </div>
+        
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="connectivity" value="Wi-Fi"> Wi-Fi
+            </label>
+            <label>
+                <input type="checkbox" class="feature-filter" data-feature="connectivity" value="Cellular"> Cellular
+            </label>
+        </div>
+    </div>
+
+    <div class="comparison-container">
+        <div class="device-list" id="device-list">
+            <!-- Devices will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

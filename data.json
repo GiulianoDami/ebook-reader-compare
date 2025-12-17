@@ -1,0 +1,47 @@
+
+[
+    {
+        "name": "Kindle Scribe",
+        "price": "$249.99",
+        "display": "Monochrome E Ink",
+        "size": "Large (10.2-inch)",
+        "waterproof": false,
+        "note_taking": true,
+        "connectivity": "Wi-Fi",
+        "pros": ["Excellent for note-taking", "Long battery life (weeks)", "Good for reading large documents", "Lightweight (255g)"],
+        "cons": ["No color display", "Expensive for basic reading", "No front light (for some models)"]
+    },
+    {
+        "name": "Boox Go",
+        "price": "$219.99",
+        "display": "Monochrome E Ink",
+        "size": "Large (10.3-inch)",
+        "waterproof": false,
+        "note_taking": true,
+        "connectivity": "Wi-Fi",
+        "pros": ["Stylus included", "Full-featured note-taking", "Color display option", "Open format support (EPUB, PDF, etc.)"],
+        "cons": ["Battery life shorter than Kindle", "More expensive than basic models", "Heavier (390g)"]
+    },
+    {
+        "name": "Kobo Libra 2",
+        "price": "$159.99",
+        "display": "Monochrome E Ink",
+        "size": "Pocketable (7-inch)",
+        "waterproof": false,
+        "note_taking": false,
+        "connectivity": "Wi-Fi",
+        "pros": ["Best price-to-performance", "Built-in front light", "Great for reading", "Lightweight (200g)"],
+        "cons": ["No note-taking", "Limited storage", "No waterproofing"]
+    },
+    {
+        "name": "Onyx Palma",
+        "price": "$199.99",
+        "display": "Monochrome E Ink",
+        "size": "Pocketable (6.8-inch)",
+        "waterproof": true,
+        "note_taking": true,
+        "connectivity": "Wi-Fi",
+        "pros": ["True waterproof (IPX8)", "Excellent note-taking", "Compact size", "Good battery life"],
+        "cons": ["Smaller screen than competitors", "Slightly heavier (220g)", "No front light"]
+    }
+]
